@@ -1,0 +1,95 @@
+body{
+    width: 90%;
+    margin: auto;
+    background-image: url("Images/pexels-mudassir-ali-2680270.jpg") ;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+
+}
+
+header > h1{
+    background-color: yellow;
+}
+
+blockquote{
+    width: 50%;
+    margin: auto;
+    font-size: 1.6em ;
+    background-color: lightgrey;
+    border-left: 3px solid firebrick;
+    padding: 80px 30px;
+    font-style: italic;
+}
+
+blockquote > p{
+    font-style: normal;
+}
+
+p{
+	font-size: 16px;
+	font-family: "Times New Roman",Georgia,Garamond;
+	color: #262323;
+}
+
+q{
+    font-style: italic;
+}
+
+.first_line{
+    background-image: url(Images/bien.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+.farmer{
+    border-left: 3px solid red;
+}
+
+.villagers{
+    border-left: 3px solid orange;
+}
+
+em{
+    text-transform: uppercase;
+    font-style: normal;
+
+}
+
+.good{
+     color :green;
+
+}
+
+.bad{
+    color: red;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table td, table th{
+    border: 1px solid black;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.brown{
+    background-color: brown;
+}
+
+a{
+    text-decoration: none;
+	color: #262323;
+}
+
+a:hover{
+    color: orange;
+}
+
+
