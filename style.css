@@ -1,15 +1,26 @@
+
 body{
     width: 90%;
     margin: auto;
+    background: -webkit-linear-gradient(-2deg, rgb(22, 135, 237), rgb(154, 157, 160));
+    background: linear-gradient(-2deg, rgb(22, 135, 237), rgb(154, 157, 160));
     background-image: url("Images/pexels-mudassir-ali-2680270.jpg") ;
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
-
+    font-family:"Open sans",serif;
+    
 }
+
+body > p{
+    font-weight: bold;
+}
+
+
 
 header > h1{
     background-color: yellow;
+    text-align: center;
 }
 
 blockquote{
@@ -26,6 +37,10 @@ blockquote > p{
     font-style: normal;
 }
 
+.first p:first-of-type{
+    font-weight: bold;
+}
+
 p{
 	font-size: 16px;
 	font-family: "Times New Roman",Georgia,Garamond;
@@ -36,12 +51,28 @@ q{
     font-style: italic;
 }
 
-.first_line {
-    background-image: url(Images/bien.png);
-    background-repeat: no-repeat;
-
+ul li{
+    padding: 20px 20px 30px 0px;
+    width: 25%;
 }
 
+ul  li:nth-of-type(1){
+    background-image: url(Images/bien.png);
+    background-repeat: no-repeat;
+    background-position: right;   
+}
+
+ul li:nth-of-type(2){
+    background-image: url(Images/mal.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+ul li:nth-of-type(3){
+    background-image: url(Images/chat.png);
+    background-repeat: no-repeat;
+    background-position: right; 
+}
 
 
 .farmer{
@@ -75,13 +106,14 @@ table td, table th{
     border: 1px solid black;
 }
 
-.orange{
-    background-color: orange;
+table tr:nth-child(odd){
+    background-color: grey;
 }
 
-.brown{
-    background-color: brown;
+table tr:nth-child(even){
+    background-color: white;
 }
+
 
 a{
     text-decoration: none;
@@ -92,4 +124,49 @@ a:hover{
     color: orange;
 }
 
+img{
+    margin: 10px;
+    height: 500px;
 
+}
+
+#first_picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#second_picture{
+    text-align: center;
+    float: left;
+}
+
+#third_picture{
+    text-align: center;
+    float: right;
+}
+
+.mars{
+    right: auto;
+    margin-top: 30px;
+}
+
+.story{
+    clear: left;
+}
+
+
+
+.table{
+    clear: both;
+}
+
+.conclusion{
+    clear: right;
+}
+
+
+footer{
+    clear: right;
+}
